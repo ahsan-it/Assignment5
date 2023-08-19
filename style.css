@@ -1,8 +1,281 @@
-.container{
-    display: flex;
-    flex: 100%;
+.parentcontainer1{
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(86, 86, 224);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background-position: center;
+    }
+    @media (max-width: 1200px) {
+        .parentcontainer1 {
+            padding: 0 15px; /* Adjust padding for smaller screens */
+        }
+    }
+.pepsilogo{
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    left: 30px;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+  }
+  .pepsilogo:hover {
+    transform: rotate(360deg);
+
+}
+.navigationbar1{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    opacity: 1;
+    transform: matrix(1,0,0,1,0,0);
+font-size: 1em;
+display: inline;
+font-weight: bold;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+.navigationbar2{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+font-size: 1em;
+display: inline;
+font-weight: bold;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+.navigationbar3{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 580px;
+font-size: 1em;
+display: inline;
+font-weight: bold;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+.navigationbar4{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 1em 1em 1em 1em ;
+    border: 3px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: white;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .1s ease-out, color .1s ease-out;
+}
+.parentcontainer2{
+    width: 100%;
+    height: calc(100vh - 88px);
     background-color: blue;
+    position: relative;
+    top: 88px;
+    padding-top: 0;
+    /* left: 0px; */
+    background-image: url(./background\ image.png);
+    /* object-fit: contain; */
+    background-position: center;
+}
+@media (max-width: 1200px) {
+    .parentcontainer2 {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+}
+.container1{
+
+    display: flex;
+    flex-direction:column;
+    /* padding-left: 30%; */
+    position: absolute;
+    top: 0px;
+    width: 741px;
+    height: auto;
+    bottom: 230px;
+}
+.container2{
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 70px;
+    left: 750px;
+    width: 400px;
+    height: auto;
+    /* bottom: 200px; */
+
+}
+.container3{
+    position: absolute;
+    top: 380px;
+    left: 58%;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1em 1em 1em 1em ;
+    border: 4px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .1s ease-out, color .1s ease-out;
+}
+.container4{
+    position: absolute;
+    top: 450px;
+    left: 49%;
+    display: flex;
+    font-size: 0.8em;
+    /* font-weight:  ; */
+    color: white;
     
+    /* align-items: center; */
+}
+.parentcontainer3{
+    width: 100%;
+    height: calc(100vh - 110px);
+    position: absolute;
+    top: 680px;
+    left: 0px;
+    /* right: 150px; */
+    background-color: black;
+    background-position: center;
+}
+
+@media (max-width: 1200px) {
+    .parentcontainer3 {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+}
+.container5{
+    display: flex;
+    /* flex-direction:column; */
+    padding-left: 10%;
+    position: absolute;
+    top: 0%;
+    width: 1200px;
+    height: auto;
+    bottom: 0px;
+}
+.container6{
+    display: flex;
+    position: absolute;
+    left: 520px;
+    top: 50px;
+}
+.container7{
+    display: flex;
+    position: absolute;
+    left:57%;
+    top: 50px;
+    width: 1000px;
+    height: 40%;
+}
+.container8{
+    display: flex;
+    position: absolute;
+    left:58%;
+    top: 330px;
+    width: 100px;
+    height: 30px;
+}
+
+.parentcontainer4{
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: absolute;
+    top: 1275px;
+    left: 0px;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png);
+}
+@media (max-width: 1200px) {
+    .parentcontainer4 {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+}
+
+.container11{
+    display: flex;
+    position: absolute;
+    left: 330px;
+    top: 50px;
+    width: 800px;
+    height: 90%;
+}
+.container12{
+    display: flex;
+    position: absolute;
+    left: 780px;
+    top: 120px;
+    width: 600px;
+    height: 40%;
+}
+.container13{
+    display: flex;
+    position: absolute;
+    left:800px;
+    top: 370px;
+    width: 70px;
+    height: 10%;
+    font-family: Cervo Neue rgb(255, 255, 255), Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 200 bold;
+    color: wheat;
+}
+.container14{
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+    left: 885px;
+    font-size: 1em ;
+    font-weight: bold;
+    height: 1.1em;
+    padding: 0.4em 1.5em;
+    border: 3px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff ;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: background-color .1s ease-out, color .1s ease-out;
+    transition: background-color .1s ease-out, color .1s ease-out;
+}
+
+.container{
+    width: 100%;
+    position: absolute;
+    top: 1873px;
+    display: flex;
+    /* flex: 100%; */
+    background-color: blue;
+    background-position: center;
+    
+}
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
 }
 
 .upper{
@@ -16,12 +289,22 @@
     width: 80%;
     margin-left: 50px;
 }
+@media (max-width: 1200px) {
+    .img1 {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+}
 
 .img2{
     display: flex;
     height: 70%;
     width: 80%;
     margin-left: 50px;   
+}
+@media (max-width: 1200px) {
+    .img2 {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
 }
 
 p{
@@ -34,7 +317,11 @@ p{
     margin-left: 10.5%;
     margin-right: 105px;
 }
-
+@media (max-width: 1200px) {
+    .p {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+}
 *{
     margin: 0%;
 }
@@ -46,26 +333,87 @@ p{
     display: flex;
     flex-direction: column;
 }
-
+@media (max-width: 1200px) {
+    .left {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+}
 .right{
-    display: flex;
-    flex-direction: column;
-    background-color:red;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    width: 1117px;
+    height: 100vh;
+}
+@media (max-width: 1200px) {
+    .right {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
 }
 .img3{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow:hidden;
+    position: absolute;
+    left: 402px;
+    width: 1117px;
+    height: 69.6vh;
+
+}
+@media (max-width: 1200px) {
+    .img3 {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
 }
 .img4{
     display: flex;
-    flex-direction:column;
-    padding-left: 30%;
     position: absolute;
-    width: 500px;
-    height: auto;
-    bottom: 230px;
+    width: 100%;
+    height: 17%;
+    top: 370px;
+    left: 1080px;
+    
 }
-
+@media (max-width: 1200px) {
+    .img4 {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+}
+    .parentcontainer6{
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: calc(100vh - 60px);
+        top: 1733px;
+        background-image: url(./bg-2-desktop@2x.png);
+        background-size: 1600px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        left: 0;
+        background-color: rgb(48, 48, 174);
+        /* overflow: hidden; */
+     }
+    
+.half2{
+    display: flex;
+    position: absolute;
+    right: -1px;
+    width: 60%; /* Take up 50% of the parent container's width */
+    height: 100%;
+    object-fit: cover;
+}
+.half1{
+    display: flex;
+    position: absolute;
+    width: 400px; /* Take up 50% of the parent container's width */
+    height: 45%;
+    left: 50px;
+    top:40px; /* Set the desired height */
+    object-fit: cover;
+}
+.half3{
+    display: flex;
+    position: absolute;
+    width: 450px; /* Take up 50% of the parent container's width */
+    /* height: 40%; */
+    left: 30px;
+    top: 610px; /* Set the desired height */
+    /* object-fit: cover; */
+}
