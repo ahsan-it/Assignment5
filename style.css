@@ -152,7 +152,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 .parentcontainer3{
     width: 100%;
-    height: calc(100vh - 110px);
+    height: calc(100vh - 80px);
     position: absolute;
     top: 680px;
     left: 0px;
@@ -203,7 +203,7 @@ font-family: 'Times New Roman', Times, serif;
     width: 100%;
     height: calc(100vh - 100px);
     position: absolute;
-    top: 1275px;
+    top: 1347px;
     left: 0px;
     background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png);
 }
@@ -265,7 +265,7 @@ font-family: 'Times New Roman', Times, serif;
 .container{
     width: 100%;
     position: absolute;
-    top: 1873px;
+    top: 1994px;
     display: flex;
     /* flex: 100%; */
     background-color: blue;
@@ -329,7 +329,7 @@ p{
 .left{
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -381,7 +381,7 @@ p{
         position: relative;
         width: 100%;
         height: calc(100vh - 60px);
-        top: 1733px;
+        top: 1855px;
         background-image: url(./bg-2-desktop@2x.png);
         background-size: 1600px;
         background-repeat: no-repeat;
